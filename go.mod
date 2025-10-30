@@ -1,4 +1,4 @@
-module order
+module github.com/GrigoriyPoshnagovInstitute/OrderService
 
 // TODO: поменять имя
 

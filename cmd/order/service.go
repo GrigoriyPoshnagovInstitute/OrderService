@@ -10,8 +10,8 @@ import (
 	"github.com/urfave/cli/v2"
 	"google.golang.org/grpc"
 
-	api "order/api/server/orderinternal"
-	"order/pkg/infrastructure/transport"
+	api "github.com/GrigoriyPoshnagovInstitute/OrderService/api/server/orderinternal"
+	"github.com/GrigoriyPoshnagovInstitute/OrderService/pkg/infrastructure/transport"
 )
 
 const shutdownTimeout = 30 * time.Second

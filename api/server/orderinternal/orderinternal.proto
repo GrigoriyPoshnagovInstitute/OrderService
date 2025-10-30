@@ -1,7 +1,7 @@
 syntax = "proto3";
 package Order;
 
-option go_package = "/.;orderinternal";
+option go_package = "github.com/GrigoriyPoshnagovInstitute/OrderService/api/server/orderinternal";
 
 service OrderInternalService {
   rpc Ping(PingRequest) returns (PingResponse);
