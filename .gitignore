@@ -1,0 +1,7 @@
+.idea/
+/vendor/
+
+bin/order
+!bin/
+
+.env
